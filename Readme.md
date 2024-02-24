@@ -1,30 +1,32 @@
-#Music App README
+# Music App README
 Music App project, which utilizes SwiftUI for the user interface and Firebase for backend services such as storage and database management. The app enables users to explore, preview, purchase, and download songs.
 
-##Features
+<img style="max-width: 80%; height: auto;" alt="music-app" src="https://github.com/Pradeep7909/music-app/assets/125856691/d28e058f-463c-4807-8b58-934d15650a4e">
 
-###SwiftUI Interface:
+## Features
+
+### SwiftUI Interface:
 The user interface of the app is built using SwiftUI, providing a modern and intuitive experience for users.
 
-###Firebase Integration:
--**Firebase Storage:** Songs audio files are stored in Firebase Storage.
--**Firebase Firestore:** User details such as purchased songs, email, credits, and name are stored in Firestore.
--**Firebase Email Password Authentication:** Users can sign up and log in using email and password authentication provided by Firebase.
+### Firebase Integration:
+* **Firebase Storage:** Songs audio files are stored in Firebase Storage.
+* **Firebase Firestore:** User details such as purchased songs, email, credits, and name are stored in Firestore.
+* **Firebase Email Password Authentication:** Users can sign up and log in using email and password authentication provided by Firebase.
 
-###Credit System:
+### Credit System:
 * Users receive 100 credits upon signing up.
 * Credits are used to purchase songs within the app.
 
-###Preview and Purchase:
+### Preview and Purchase:
 * Users can preview songs for 30 seconds before purchasing.
 * Full access to songs is granted upon purchase.
 
-###Download Feature:
+### Download Feature:
 * Purchased songs can be downloaded for offline listening.
 * Downloaded songs are stored in the device's file manager.
 * Song details such as title, artist, and thumbnail are stored in CoreData.
 
-##Installation
+## Installation
 To run the Music App project locally, follow these steps:
 
 - Clone the repository:
@@ -37,7 +39,7 @@ git clone https://github.com/pradeep79093/music-app.git
 - Open the project in Xcode.
 - Run the project on a simulator or a physical device.
 
-##Usage
+## Usage
 * Upon launching the app, users can sign up or log in using their email and password.
 * After signing in, users are greeted with the app's interface where they can explore songs.
 * Users can preview songs by listening to a 30-second clip.
@@ -46,15 +48,15 @@ git clone https://github.com/pradeep79093/music-app.git
 * Downloaded songs are accessible in the app's library and can be played directly from there.
 
 
-##Acknowledgements
-*SwiftUI
-*Firebase
-*CoreData
+## Acknowledgements
+* SwiftUI
+* Firebase
+* CoreData
 
-##Contact
+## Contact
 For questions or support, please contact.
 
--**Email:** pradeeprathore79093@gmail.com
--**LinkedIn:** [Linkedin Link](https://in.linkedin.com/in/pradeep-rathore-5824a6237)
+ * **Email:** pradeeprathore79093@gmail.com
+ * **LinkedIn:** [Linkedin Link](https://in.linkedin.com/in/pradeep-rathore-5824a6237)
 
-###Thank you for using the Music App! 🎶📱
+### Thank you for using the Music App! 🎶📱
