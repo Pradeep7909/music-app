@@ -1,4 +1,3 @@
-
 #Music App README
 Music App project, which utilizes SwiftUI for the user interface and Firebase for backend services such as storage and database management. The app enables users to explore, preview, purchase, and download songs.
 
