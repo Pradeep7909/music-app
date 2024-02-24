@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("uid") var userId : String = ""
+    @StateObject var audioPlayerManager = AudioPlayerManager()
+    @StateObject var userViewModel = UserViewModel()
+    @StateObject var songViewModel = SongViewModel()
+
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            if userId == "" {
+                LoginScreenView()
+            } else{
+                MainScreenView()
+                    .environmentObject(audioPlayerManager)
+                    .environmentObject(userViewModel)
+                    .environmentObject(songViewModel)
+            }
         }
-        .padding()
     }
 }
 
